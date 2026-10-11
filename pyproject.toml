@@ -7,7 +7,10 @@ name = "local-code-agent"
 version = "0.1.0"
 description = "A local AI coding agent"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai",
+    "python-dotenv",
+]
 
 [project.optional-dependencies]
 dev = [

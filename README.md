@@ -1,6 +1,24 @@
 # MiniCodeAgent
 A local software development agent
 
+# 项目执行过程
+
+## 第一步：确认 .env 中的配置
+
+1. 按照example.env中的字段，创建.env文件
+
+```commandline
+cp exmple.env .env
+```
+
+2. 检查项目根目录下的 .env，确认有以下四项：
+BAILIAN_API_KEY=你的百炼API_KEY
+BAILIAN_WORKSPACE_ID=你的工作空间ID
+BAILIAN_BASE_URL=你的百炼API地址
+BAILIAN_MODEL=你的模型名称
+
+## 第二步：安装依赖
+
 
 # 整体开发路线
 
